@@ -1,9 +1,9 @@
-@font-face {
+/* @font-face {
   font-family: charter;
   src: url('../fonts/charter-regular.otf');
   font-style: normal;
   font-weight: 400;
-}
+} */
 
 ::root{
   font-size: 18px;
@@ -18,7 +18,8 @@ html{
 
 body {
   color: var(--gray30);
-  font-family: charter;
+  /* font-family: charter; */
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
